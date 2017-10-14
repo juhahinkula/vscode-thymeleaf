@@ -1,0 +1,68 @@
+
+{
+  "th:text": {
+    "prefix": "thtxt",
+    "body": "th:text=\"${}\"",
+    "description": "Thymeleaf text"
+  },
+
+  "th:each": {
+    "prefix": "theach",
+    "body": "th:each=\" : ${}\"",
+    "description": "Thymeleaf each"
+  },
+
+  "th:each li": {
+    "prefix": "theachli",
+    "body": "<li th:each=\" : ${}\"></li>",
+    "description": "Thymeleaf each list"
+  }, 
+
+  "th:object": {
+    "prefix": "thobj",
+    "body": "th:object=\"${}\"",
+    "description": "Thymeleaf object"
+  },  
+
+  "th:ref": {
+    "prefix": "thref",
+    "body": "th:href=\"@{}\"" ,
+    "description": "Thymeleaf reference"
+  }, 
+ 
+  "th:form": {
+    "prefix": "thform",
+    "body": "<form th:action=\"@{}\"></form>",
+    "description": "Thymeleaf form"
+  }, 
+
+  "th:if": {
+    "prefix": "thif",
+    "body": "th:if=\"@{}\"",
+    "description": "Thymeleaf if"
+  }, 
+
+  "th:switch": {
+    "prefix": "thswitch",
+    "body": "th:switch=\"${}\"",
+    "description": "Thymeleaf switch"
+  },   
+
+  "th:case": {
+    "prefix": "thcase",
+    "body": "th:case=\"\"",
+    "description": "Thymeleaf case"
+  },   
+
+  "th:value": {
+    "prefix": "thval",
+    "body": "th:value=\"\"",
+    "description": "Thymeleaf value"
+  },   
+
+  "th:template": {
+    "prefix": "thtmpl",
+    "body": "<!DOCTYPE html>\n<html xmlns:th=\"http://www.thymeleaf.org\">\n\t<head>\n\t\t...\n\t</head>\n\n\t<body>\n\t\t...\n\t</body>\n</html>",
+    "description": "Thymeleaf html template"
+  },    
+}
