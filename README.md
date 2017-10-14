@@ -1,6 +1,6 @@
 ## Features
 
-Thymleaf snippets for vscode
+Thymeleaf snippets for vscode
 
 Snippets for the most common thymeleaf features
 - Thymeleaf starter html template

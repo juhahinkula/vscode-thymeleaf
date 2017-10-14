@@ -3,7 +3,7 @@
     "displayName": "thymeleaf",
     "description": "Thymeleaf snippets",
     "version": "0.0.1",
-    "publisher": "jh",
+    "publisher": "juhahinkula",
     "engines": {
         "vscode": "^1.17.0"
     },
