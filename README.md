@@ -8,10 +8,10 @@ Snippets for the most common thymeleaf features
 | -------: | ------- |
 | `thtxt`   | th:text="${}" |
 | `theach`   |"th:each=" : ${}" |
-| `theachli`  | <li th:each=" : ${}"></li> |
+| `theachli`  | Thymeleaf each with list |
 | `thobj`  | th:object="${}" |
 | `thref`  | th:href="@{}" |
-| `thform`  | <form th:action="@{}"></form> |
+| `thform`  | Thymeleaf form |
 | `thif`   | th:if="@{}" |
 | `thswitch`  | th:switch="${}" |
 | `thcase`  | th:case="" |
