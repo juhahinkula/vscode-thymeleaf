@@ -2,7 +2,7 @@
 
 Thymeleaf snippets for vscode
 
-Snippets for the most common thymeleaf features
+Snippets for the most common thymeleaf features. Works with .html files.
 
 | Trigger  | Content |
 | -------: | ------- |
