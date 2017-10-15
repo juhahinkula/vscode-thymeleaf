@@ -3,14 +3,20 @@
 Thymeleaf snippets for vscode
 
 Snippets for the most common thymeleaf features
-- Thymeleaf starter html template
-- th:text
-- th:if
-- th:switch
-- th:case
-- th:each & th:each list
-- th:object
-- th:ref
+
+| Trigger  | Content |
+| -------: | ------- |
+| `thtxt`   | th:text="${}" |
+| `theach`   |"th:each=" : ${}" |
+| `theachli`  | <li th:each=" : ${}"></li> |
+| `thobj`  | th:object="${}" |
+| `thref`  | th:href="@{}" |
+| `thform`  | <form th:action="@{}"></form> |
+| `thif`   | th:if="@{}" |
+| `thswitch`  | th:switch="${}" |
+| `thcase`  | th:case="" |
+| `thval`  | th:value="" |
+| `thtmpl`  | HTML thymleaf template |
 
 ## Release Notes
 
