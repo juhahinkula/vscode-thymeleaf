@@ -7,6 +7,7 @@ Snippets for the most common thymeleaf features. Works with .html files.
 | Trigger  | Content |
 | -------: | ------- |
 | `thtxt`   | th:text="${}" |
+| `thfld`   | th:field="*{}" |
 | `theach`   |"th:each=" : ${}" |
 | `theachli`  | Thymeleaf each with list |
 | `thobj`  | th:object="${}" |
@@ -23,5 +24,9 @@ Snippets for the most common thymeleaf features. Works with .html files.
 ### 1.0.0
 
 Initial release of thymeleaf snippets
+
+### 1.1.0
+
+th:field added
 
 -----------------------------------------------------------------------------------------------------------
