@@ -6,6 +6,12 @@
     "description": "Thymeleaf text"
   },
 
+  "th:field": {
+    "prefix": "thfld",
+    "body": "th:field=\"*{}\"",
+    "description": "Thymeleaf field"
+  },
+
   "th:each": {
     "prefix": "theach",
     "body": "th:each=\" : ${}\"",
