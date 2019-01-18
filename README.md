@@ -25,7 +25,7 @@ Snippets for the most common thymeleaf features. Works with .html files.
 
 Initial release of thymeleaf snippets
 
-### 1.1.0
+### 1.0.2
 
 th:field added
 
