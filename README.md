@@ -13,7 +13,7 @@ Snippets for the most common thymeleaf features. Works with .html files.
 | `thobj`  | th:object="${}" |
 | `thref`  | th:href="@{}" |
 | `thform`  | Thymeleaf form |
-| `thif`   | th:if="@{}" |
+| `thif`   | th:if="${}" |
 | `thswitch`  | th:switch="${}" |
 | `thcase`  | th:case="" |
 | `thval`  | th:value="" |
@@ -35,5 +35,9 @@ th:field added
 ### 1.0.4
 
 th:insert, th:replace, th:fragment added
+
+### 1.0.5
+
+th:if @ changed to $
 
 -----------------------------------------------------------------------------------------------------------

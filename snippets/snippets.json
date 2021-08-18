@@ -44,7 +44,7 @@
 
   "th:if": {
     "prefix": "thif",
-    "body": "th:if=\"@{}\"",
+    "body": "th:if=\"${}\"",
     "description": "Thymeleaf if"
   }, 
 
