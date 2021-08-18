@@ -32,7 +32,7 @@ Initial release of thymeleaf snippets
 
 th:field added
 
-### 1.0.3
+### 1.0.4
 
 th:insert, th:replace, th:fragment added
 
