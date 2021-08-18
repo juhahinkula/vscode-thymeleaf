@@ -66,6 +66,24 @@
     "description": "Thymeleaf value"
   },   
 
+  "th:replace": {
+    "prefix": "threp",
+    "body": "th:replace=\"\"",
+    "description": "Thymeleaf replace"
+  },   
+
+  "th:insert": {
+    "prefix": "thins",
+    "body": "th:insert=\"\"",
+    "description": "Thymeleaf insert"
+  },   
+ 
+  "th:fragment": {
+    "prefix": "thfr",
+    "body": "th:fragment=\"\"",
+    "description": "Thymeleaf fragment"
+  },   
+
   "th:template": {
     "prefix": "thtmpl",
     "body": "<!DOCTYPE html>\n<html xmlns:th=\"http://www.thymeleaf.org\">\n\t<head>\n\t\t...\n\t</head>\n\n\t<body>\n\t\t...\n\t</body>\n</html>",

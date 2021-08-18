@@ -17,6 +17,9 @@ Snippets for the most common thymeleaf features. Works with .html files.
 | `thswitch`  | th:switch="${}" |
 | `thcase`  | th:case="" |
 | `thval`  | th:value="" |
+| `thins`  | th:insert="" |
+| `threp`  | th:replace="" |
+| `thfr`  | th:fragment |
 | `thtmpl`  | HTML thymleaf template |
 
 ## Release Notes
@@ -28,5 +31,9 @@ Initial release of thymeleaf snippets
 ### 1.0.2
 
 th:field added
+
+### 1.0.3
+
+th:insert, th:replace, th:fragment added
 
 -----------------------------------------------------------------------------------------------------------
