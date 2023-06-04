@@ -88,5 +88,17 @@
     "prefix": "thtmpl",
     "body": "<!DOCTYPE html>\n<html xmlns:th=\"http://www.thymeleaf.org\">\n\t<head>\n\t\t...\n\t</head>\n\n\t<body>\n\t\t...\n\t</body>\n</html>",
     "description": "Thymeleaf html template"
-  },    
+  },
+  
+  "th:with": {
+    "prefix": "thwth",
+    "body": "th:with=\"\"",
+    "description": "Thymeleaf with"
+  },
+  
+  "th:style": {
+    "prefix": "thstyl",
+    "body": "th:style=\"\"",
+    "description": "Thymeleaf style"
+  },
 }
