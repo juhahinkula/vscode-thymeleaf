@@ -20,6 +20,8 @@ Snippets for the most common thymeleaf features. Works with .html files.
 | `thins`  | th:insert="" |
 | `threp`  | th:replace="" |
 | `thfr`  | th:fragment |
+| `thwith`  | th:with="" |
+| `thstyle`  | th:style="" |
 | `thtmpl`  | HTML thymleaf template |
 
 ## Release Notes
@@ -39,5 +41,9 @@ th:insert, th:replace, th:fragment added
 ### 1.0.5
 
 th:if @ changed to $
+
+### 1.0.6
+
+th:style and th:with added
 
 -----------------------------------------------------------------------------------------------------------
