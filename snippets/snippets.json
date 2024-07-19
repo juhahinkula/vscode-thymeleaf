@@ -2,85 +2,85 @@
 {
   "th:text": {
     "prefix": "thtxt",
-    "body": "th:text=\"${}\"",
+    "body": "th:text=\"${$1}\"",
     "description": "Thymeleaf text"
   },
 
   "th:field": {
     "prefix": "thfld",
-    "body": "th:field=\"*{}\"",
+    "body": "th:field=\"*{${1}}\"",
     "description": "Thymeleaf field"
   },
 
   "th:each": {
     "prefix": "theach",
-    "body": "th:each=\" : ${}\"",
+    "body": "th:each=\"$1 : ${$2}\"",
     "description": "Thymeleaf each"
   },
 
   "th:each li": {
     "prefix": "theachli",
-    "body": "<li th:each=\" : ${}\"></li>",
+    "body": "<li th:each=\"$1 : ${$2}\"></li>",
     "description": "Thymeleaf each list"
   }, 
 
   "th:object": {
     "prefix": "thobj",
-    "body": "th:object=\"${}\"",
+    "body": "th:object=\"${$1}\"",
     "description": "Thymeleaf object"
   },  
 
   "th:ref": {
     "prefix": "thref",
-    "body": "th:href=\"@{}\"" ,
+    "body": "th:href=\"@{$1}\"" ,
     "description": "Thymeleaf reference"
   }, 
  
   "th:form": {
     "prefix": "thform",
-    "body": "<form th:action=\"@{}\"></form>",
+    "body": "<form th:action=\"@{$1}\"></form>",
     "description": "Thymeleaf form"
   }, 
 
   "th:if": {
     "prefix": "thif",
-    "body": "th:if=\"${}\"",
+    "body": "th:if=\"${$1}\"",
     "description": "Thymeleaf if"
   }, 
 
   "th:switch": {
     "prefix": "thswitch",
-    "body": "th:switch=\"${}\"",
+    "body": "th:switch=\"${$1}\"",
     "description": "Thymeleaf switch"
   },   
 
   "th:case": {
     "prefix": "thcase",
-    "body": "th:case=\"\"",
+    "body": "th:case=\"$1\"",
     "description": "Thymeleaf case"
   },   
 
   "th:value": {
     "prefix": "thval",
-    "body": "th:value=\"\"",
+    "body": "th:value=\"$1\"",
     "description": "Thymeleaf value"
   },   
 
   "th:replace": {
     "prefix": "threp",
-    "body": "th:replace=\"\"",
+    "body": "th:replace=\"$1\"",
     "description": "Thymeleaf replace"
   },   
 
   "th:insert": {
     "prefix": "thins",
-    "body": "th:insert=\"\"",
+    "body": "th:insert=\"$1\"",
     "description": "Thymeleaf insert"
   },   
  
   "th:fragment": {
     "prefix": "thfr",
-    "body": "th:fragment=\"\"",
+    "body": "th:fragment=\"$1\"",
     "description": "Thymeleaf fragment"
   },   
 
@@ -92,13 +92,13 @@
   
   "th:with": {
     "prefix": "thwth",
-    "body": "th:with=\"\"",
+    "body": "th:with=\"$1\"",
     "description": "Thymeleaf with"
   },
   
   "th:style": {
     "prefix": "thstyl",
-    "body": "th:style=\"\"",
+    "body": "th:style=\"$1\"",
     "description": "Thymeleaf style"
-  },
+  }
 }
